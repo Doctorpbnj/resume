@@ -1,0 +1,58 @@
+@keyframes breath {
+  to {
+    box-shadow: 1.9px 1.9px 6px #31D2F2;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#intro {
+  position: relative;
+  bottom: 13em;
+  right: 8vw;
+  text-align: right;
+}
+
+@media screen and (max-width: 1403px) {
+  #intro {
+    position: relative;
+    bottom: 15vw;
+    text-align: right;
+  }
+}
+#edu_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+}
+#edu_list li {
+  position: relative;
+  margin: 0.3em 0em 0.3em 0.7em;
+  padding: 0px 4px;
+  border-radius: 2px;
+  background-color: #3f4246;
+  color: #e6e6e6;
+}
+#edu_list li:hover {
+  transform: scale(1.1, 1.1);
+  z-index: 1;
+  animation-name: breath;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+#not_nav {
+  margin-left: 30px;
+}
+
+footer a:hover {
+  transform: scale(1.1, 1.1);
+  transition-duration: 0.2s;
+}
+
+/*# sourceMappingURL=resume1.css.map */
