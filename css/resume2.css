@@ -9,31 +9,18 @@
   padding: 0;
 }
 
-#HeadshotTitle {
+#intro {
   position: relative;
-  max-height: 696px;
+  bottom: 13em;
+  right: 8vw;
+  text-align: right;
 }
 
-#nameTitle {
-  position: absolute;
-  bottom: 4vw;
-  left: 3vw;
-  text-align: left;
-}
-
-#ProfessionalSummary {
-  padding: 2% 3%;
-}
-
-#SummaryText {
-  padding: 23% 0;
-  text-align: left;
-  max-width: 524px;
-}
-
-@media screen and (max-width: 918px) {
-  #ProfessionalSummary {
-    display: none;
+@media screen and (max-width: 1403px) {
+  #intro {
+    position: relative;
+    bottom: 15vw;
+    text-align: right;
   }
 }
 #edu_list {
@@ -44,8 +31,8 @@
 }
 #edu_list li {
   position: relative;
-  margin: 0.3em 0 0.3em 0.7em;
-  padding: 0 4px;
+  margin: 0.3em 0em 0.3em 0.7em;
+  padding: 0px 4px;
   border-radius: 2px;
   background-color: #3f4246;
   color: #e6e6e6;

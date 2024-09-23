@@ -4,7 +4,6 @@ $white: #e6e6e6;
 $blue: #31D2F2;
 
 @keyframes breath {
-  from{}
   to {
     box-shadow: 1.9px 1.9px 6px $blue;
   }
@@ -22,19 +21,31 @@ $blue: #31D2F2;
 
   //mixins
 
-
-#intro{
+#HeadshotTitle{
   position: relative;
-  bottom: 13em;
-  right: 8vw;
-  text-align: right;
+    max-height: 696px;
 }
 
-@media screen and (max-width: 1403px){
-  #intro{
-    position: relative;
-    bottom: 15vw;
-    text-align: right;
+#nameTitle{
+  position: absolute;
+  bottom: 4vw;
+  left: 3vw;
+  text-align: left;
+}
+
+#ProfessionalSummary{
+  padding: 2% 3%;
+}
+
+#SummaryText{
+  padding: 23% 0;
+  text-align: left;
+  max-width: 524px;
+}
+
+@media screen and (max-width: 918px) {
+  #ProfessionalSummary {
+    display: none;
   }
 }
 
@@ -43,12 +54,11 @@ $blue: #31D2F2;
   padding: 0;
   margin: 0;
   border-radius: 5px;
-  
 
   li{
     position: relative;
-    margin: .3em 0em .3em .7em;
-    padding: 0px 4px;
+    margin: .3em 0 .3em .7em;
+    padding: 0 4px;
     border-radius: 2px;
     background-color: $dark;
     color: $white;
