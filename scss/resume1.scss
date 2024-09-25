@@ -5,7 +5,7 @@ $blue: #31D2F2;
 
 @keyframes breath {
   to {
-    box-shadow: 1.9px 1.9px 6px $blue;
+    box-shadow: 1.9px 1.9px 3px $dark;
   }
 }
 
@@ -46,6 +46,41 @@ $blue: #31D2F2;
 @media screen and (max-width: 918px) {
   #ProfessionalSummary {
     display: none;
+  }
+}
+
+#SkillGroup{
+  section{
+    width: clamp(175px, 31vw, 350px);
+    margin: 2em auto 0;
+    padding-bottom: .25em;
+    border: 1.5px solid $dark;
+    border-top-style: none;
+    border-radius: 8px;
+  }
+
+  section:hover{
+    animation-name: breath;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  h5{
+    position: relative;
+    overflow: visible;
+    top: -1.3rem;
+    text-align: center;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul{
+    position: relative;
+    top: 1em;
+    list-style: none;
+    padding: 0;
   }
 }
 

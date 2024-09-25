@@ -1,6 +1,6 @@
 @keyframes breath {
   to {
-    box-shadow: 1.9px 1.9px 6px #31D2F2;
+    box-shadow: 1.9px 1.9px 3px #3f4246;
   }
 }
 * {
@@ -36,6 +36,36 @@
     display: none;
   }
 }
+#SkillGroup section {
+  width: clamp(175px, 31vw, 350px);
+  margin: 2em auto 0;
+  padding-bottom: 0.25em;
+  border: 1.5px solid #3f4246;
+  border-top-style: none;
+  border-radius: 8px;
+}
+#SkillGroup section:hover {
+  animation-name: breath;
+  animation-duration: 1.4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+#SkillGroup h5 {
+  position: relative;
+  overflow: visible;
+  top: -1.3rem;
+  text-align: center;
+  height: 1em;
+  margin: 0;
+  padding: 0;
+}
+#SkillGroup ul {
+  position: relative;
+  top: 1em;
+  list-style: none;
+  padding: 0;
+}
+
 #edu_list {
   list-style-type: none;
   padding: 0;
