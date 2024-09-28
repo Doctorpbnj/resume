@@ -7,6 +7,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: clip;
 }
 
 #HeadshotTitle {
@@ -47,13 +48,17 @@
     display: none;
   }
 }
+#SkillGroup {
+  padding: 0;
+  margin: 0;
+}
 #SkillGroup section {
-  width: clamp(175px, 31vw, 350px);
+  width: clamp(160px, 31vw, 350px);
   margin: 2em auto 0;
-  padding-bottom: 0.25em;
+  padding: 0.25em;
   border: 1.5px solid #3f4246;
   border-top-style: none;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 #SkillGroup section:hover {
   animation-name: breath;

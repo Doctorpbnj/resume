@@ -10,38 +10,39 @@ $dark: #3f4246;
 //Global
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  //imports
-
-  //mixins
-
-#HeadshotTitle{
-  position: relative;
-    max-height: 696px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
 }
 
-#nameTitle{
+//imports
+
+//mixins
+
+#HeadshotTitle {
+  position: relative;
+  max-height: 696px;
+}
+
+#nameTitle {
   position: absolute;
   bottom: 4vw;
   left: 3vw;
   text-align: left;
 }
 
-#ProfessionalSummary{
+#ProfessionalSummary {
   padding: 2% 3%;
 }
 
-#SummaryText{
+#SummaryText {
   padding: 23% 0;
   text-align: left;
   max-width: 524px;
 }
 
-#SummaryTextSm{
+#SummaryTextSm {
   border: 1px solid gray;
   border-radius: 5px;
   padding: 1em;
@@ -59,24 +60,27 @@ $dark: #3f4246;
   }
 }
 
-#SkillGroup{
-  section{
-    width: clamp(175px, 31vw, 350px);
+#SkillGroup {
+  padding: 0;
+  margin: 0;
+
+  section {
+    width: clamp(160px, 31vw, 350px);
     margin: 2em auto 0;
-    padding-bottom: .25em;
+    padding: .25em;
     border: 1.5px solid $dark;
     border-top-style: none;
-    border-radius: 8px;
+    border-radius: 10px;
   }
 
-  section:hover{
+  section:hover {
     animation-name: breath;
     animation-duration: 1.4s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
   }
 
-  h5{
+  h5 {
     position: relative;
     overflow: visible;
     top: -1.3rem;
@@ -86,7 +90,7 @@ $dark: #3f4246;
     padding: 0;
   }
 
-  ul{
+  ul {
     position: relative;
     top: 1em;
     list-style: none;
@@ -94,23 +98,23 @@ $dark: #3f4246;
   }
 }
 
-#College{
+#College {
   border-bottom: 1px solid gray;
 }
 
-#not_nav{
+#not_nav {
   margin-left: 30px;
 }
 
-#Highlights{
+#Highlights {
   text-align: justify;
 
-  li{
+  li {
     list-style-type: none;
   }
 }
 
-footer a:hover{
+footer a:hover {
   transform: scale(1.1, 1.1);
   transition-duration: .2s;
 }
