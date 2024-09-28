@@ -31,6 +31,17 @@
   max-width: 524px;
 }
 
+#SummaryTextSm {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+@media screen and (min-width: 918px) {
+  #SummaryTextSm {
+    display: none;
+  }
+}
 @media screen and (max-width: 918px) {
   #ProfessionalSummary {
     display: none;
@@ -66,31 +77,19 @@
   padding: 0;
 }
 
-#edu_list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  border-radius: 5px;
-}
-#edu_list li {
-  position: relative;
-  margin: 0.3em 0 0.3em 0.7em;
-  padding: 0 4px;
-  border-radius: 2px;
-  background-color: #3f4246;
-  color: #e6e6e6;
-}
-#edu_list li:hover {
-  transform: scale(1.1, 1.1);
-  z-index: 1;
-  animation-name: breath;
-  animation-duration: 1.4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+#College {
+  border-bottom: 1px solid gray;
 }
 
 #not_nav {
   margin-left: 30px;
+}
+
+#Highlights {
+  text-align: justify;
+}
+#Highlights li {
+  list-style-type: none;
 }
 
 footer a:hover {

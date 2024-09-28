@@ -1,7 +1,5 @@
 //variables
 $dark: #3f4246;
-$white: #e6e6e6;
-$blue: #31D2F2;
 
 @keyframes breath {
   to {
@@ -41,6 +39,18 @@ $blue: #31D2F2;
   padding: 23% 0;
   text-align: left;
   max-width: 524px;
+}
+
+#SummaryTextSm{
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+@media screen and (min-width: 918px) {
+  #SummaryTextSm {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 918px) {
@@ -84,33 +94,20 @@ $blue: #31D2F2;
   }
 }
 
-#edu_list{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  border-radius: 5px;
-
-  li{
-    position: relative;
-    margin: .3em 0 .3em .7em;
-    padding: 0 4px;
-    border-radius: 2px;
-    background-color: $dark;
-    color: $white;
-  }
-
-  li:hover{
-    transform: scale(1.1, 1.1);
-    z-index: 1;
-    animation-name: breath;
-    animation-duration: 1.4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-  }
+#College{
+  border-bottom: 1px solid gray;
 }
 
 #not_nav{
   margin-left: 30px;
+}
+
+#Highlights{
+  text-align: justify;
+
+  li{
+    list-style-type: none;
+  }
 }
 
 footer a:hover{
