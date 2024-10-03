@@ -54,7 +54,7 @@
   margin: 0;
 }
 #SkillGroup section {
-  width: clamp(125px, 31vw, 350px);
+  width: clamp(131px, 31vw, 350px);
   margin: 2em auto 0;
   padding: 0.25em;
   border: 1.5px solid #3f4246;
