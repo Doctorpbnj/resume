@@ -5,7 +5,7 @@ const App = () => (
         {/*Header with profile image and name*/}
         <header className="container-fluid d-flex justify-content-between bg-dark text-light p-0">
             <section className="container" id="HeadshotTitle">
-                <img src="%PUBLIC_URL%/spain_crop.jpg" alt="Brian profile picture" loading="eager"
+                <img src="%PUBLIC_URL%/spain_crop.jpg" alt="Brian Fuller" loading="eager"
                      className="container" id="headshot" style={{maxHeight: "696px", maxWidth: "696px"}}/>
                 <section className="container-fluid p-0" id="nameTitle">
                     <h2 className="m-0">Brian Fuller</h2>
@@ -273,7 +273,7 @@ const App = () => (
                 </div>
                 {/*Free*/}
                 <div className="my-1">
-                    <a href="#freel" className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
+                    <a href={"#freel"} className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
                         <div className="ms-2 text-start">
                             01/2023 - Present
                         </div>
@@ -307,7 +307,7 @@ const App = () => (
 
                 {/*JPMC*/}
                 <div className="my-1">
-                    <a href="#jpmc" className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
+                    <a href={"#jpmc"} className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
                         <div className="ms-2 text-start">
                             08/2022 - 12/2022
                         </div>
@@ -341,7 +341,7 @@ const App = () => (
 
                 {/*JnJ*/}
                 <div className="my-1">
-                    <a href="#jnj" className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
+                    <a href={"#jnj"} className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
                         <div className="ms-2 text-start">
                             07/2017 - 01/2022
                         </div>
@@ -386,7 +386,7 @@ const App = () => (
 
                 {/*Quest*/}
                 <div className="my-1">
-                    <a href="#quest" className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
+                    <a href={"#quest"} className="btn d-flex justify-content-between btn-dark btn-block" data-bs-toggle="collapse">
                         <div className="ms-2 text-start">
                             01/2017 - 06/2017
                         </div>
@@ -418,7 +418,7 @@ const App = () => (
 
                 {/*kean*/}
                 <div className="my-1">
-                    <a href="#kean_tech" className="btn d-flex justify-content-between btn-dark btn-block"
+                    <a href={"#kean_tech"} className="btn d-flex justify-content-between btn-dark btn-block"
                        data-bs-toggle="collapse">
                         <div className="ms-2 text-start">
                             05/2013 - 01/2017
@@ -509,10 +509,10 @@ const App = () => (
                             </div>
                         </address>
                         <div className="d-flex pt-2 flex-column">
-                            <a href="https://github.com/Doctorpbnj" className="mb-2" target="_blank">
+                            <a href="https://github.com/Doctorpbnj" className="mb-2" target="_blank" rel="noreferrer">
                                 <img src="%PUBLIC_URL%/github_icon_char.png" alt="github icon" width={"40px"} height={"auto"}/>
                             </a>
-                            <a href="https://www.linkedin.com/in/brian-fuller-64229aab" target="_blank">
+                            <a href="https://www.linkedin.com/in/brian-fuller-64229aab" target="_blank" rel="noreferrer">
                                 <img src="%PUBLIC_URL%/linkedin_icon_char.png" alt="linkedin icon" width={"40px"} height={"auto"}/>
                             </a>
                         </div>
