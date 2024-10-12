@@ -1,0 +1,34 @@
+#HeadshotTitle {
+  position: relative;
+  max-height: 696px;
+}
+
+#nameTitle {
+  position: absolute;
+  bottom: 4vw;
+  left: 3vw;
+  text-align: left;
+}
+
+#ProfessionalSummary {
+  padding: 2% 3%;
+}
+
+#SummaryText {
+  padding: 23% 0;
+  text-align: left;
+  max-width: 524px;
+}
+
+#SummaryTextSm {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: .5em;
+  text-align: justify;
+}
+
+@media screen and (max-width: 918px) {
+  #ProfessionalSummary {
+    display: none;
+  }
+}

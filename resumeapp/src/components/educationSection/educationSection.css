@@ -1,0 +1,16 @@
+#College {
+  border-bottom: 1px solid gray;
+}
+
+#CertIcons img {
+  width: 180px;
+  height: 180px;
+}
+@media screen and (max-width: 440px) {
+  #CertIcons img {
+    width: 35vw;
+    height: 35vw;
+  }
+}
+
+/*# sourceMappingURL=educationSection.css.map */
