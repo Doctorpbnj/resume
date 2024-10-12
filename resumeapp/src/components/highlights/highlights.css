@@ -1,0 +1,13 @@
+@media screen and (min-width: 918px) {
+  #SummaryTextSm {
+    display: none;
+  }
+}
+#Highlights {
+  text-align: justify;
+}
+#Highlights li {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=highlights.css.map */

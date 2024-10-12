@@ -1,0 +1,43 @@
+@keyframes breath {
+  to {
+    box-shadow: 1.9px 1.9px 3px #3f4246;
+  }
+}
+
+#SkillGroup {
+  padding: 0;
+  margin: 0;
+
+  section {
+    width: clamp(131px, 31vw, 350px);
+    margin: 2em auto 0;
+    padding: .25em;
+    border: 1.5px solid #3f4246;
+    border-top-style: none;
+    border-radius: 10px;
+  }
+
+  section:hover {
+    animation-name: breath;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+  }
+
+  h5 {
+    position: relative;
+    overflow: visible;
+    top: -1.3rem;
+    text-align: center;
+    height: 1em;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    position: relative;
+    top: 1em;
+    list-style: none;
+    padding: 0;
+  }
+}
