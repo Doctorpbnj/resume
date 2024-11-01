@@ -12,7 +12,7 @@ const WorkExperience = () => (
             <div className={`my-1`}>
                 <a href={`#freel`} className={`btn d-flex justify-content-between btn-dark btn-block`} data-bs-toggle={`collapse`}>
                     <div className={`ms-2 text-start`}>
-                        01/2023 - Present
+                        01/2013 - Present
                     </div>
                     <div className={`me-2 text-end`}>
                         IT Technician/Consultant
